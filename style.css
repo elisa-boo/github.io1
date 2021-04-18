@@ -1,0 +1,65 @@
+html{ height 100% 
+    
+}
+
+body{ height 100%
+    margin: 0;
+    
+}
+
+#h1{
+ text-align: center ;
+}
+header{
+    background-color: blue;
+    }
+
+nav ul{
+    box-sizing:border-box;
+    padding: 0;
+    list-style-type:none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a: :hover{
+    cursor: pointer;
+    color:black;
+    border-botton:2px solid black;
+    }
+
+#h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: darkslategray;
+    color: floralwhite;
+    
+}
+
+#p{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    background-image: none;
+    padding: 2px;
+    color: black;
+}
+
+.class{
+    float: none;
+
+}
+
+#rodape{
+    
+    font-size: 32px;
+    color: rgb(189, 40, 97);
+    background-color: #0af37e;
+    text-align:center;
+    background-image: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAb1BMVEX///8yLCQaEAAcEwAmHxXLysiOjInAvr16d3MTBQDQzsyEgX0kHBEoIRba2deRj4yxr61PS0YuJx5YVE8gGArx8fDn5+arqaYAAAAmHxFEQDp/fHhzcW0LAAAYDAC4trShn5ulo58TAACXlZJKRkAniflCAAACwElEQVR4nO3cXU/bQBCF4a2/grNLCME0No7tEPf//8YSUlXpzTlWUeCCd6TEysUc2Y8wNzPa8ENXVgZdm1wHjD9NwLaR/btH0x9iIQOK6AICBhhggAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAEGGHzEINPVrp1BawKenYEOqF/cE/Q6oO2twdrUsY+yZhdQ6f5+b/pL3R/7yQSszBP4v5M4Fqqygwt4bGTAsDf9zynJgNa9retW9heFNaj023ZvDZ52MqCxBrL97R+ONchMgjdIGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAEGGGCAwX8ZMG8MsU6qRj93zmWAnzt3sj8tmDvrgBRKU6+VruPaBMwmYOvuwPRXk+mfXMDt91DsLs7X76GYd+Vb7CNhgAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAEGGNzKwM6djUFtDXTAZxjUuhbM3k2An73L/mHB7F3fgJ+9u6rGruvS+ZMu17evP5fzJ/e7OE13qfRv5/uP1J3sHsquu266RFz9GOweynC+93Sd8Pfy/u0N9E5W8dF9pNwb6AC/jzTKfvbSMMAAAwwwwAADDDDAAAMMMMAAAwwwwAADDDDAAAMMMMAAg1sacAZEiG2uavBnQNQyoLUGeaYD7KaMfoI8Dw+6qu1K11SZgMkE7E3AbPpXR3MDRxcQzDkZC/ZQTIDdQxlkf/PL9LvTSmrOgGAvDQMMMMAAAwwwwAADDDDAAAMMMMAAAwwwwAADDDDAAAMMMLilwb2uwc6dh0IGLJg7y/7k586ZDMj83PlO12G10VUeTEBpArYmIJr+zWweYXYB1ii2o6oFeygnGbBgD0X2jwv2UHTAaA3YycIAAwwwwAADDDDAAAMMMMAAAwwwwAADDDDAAAMMMMAAAwwwwAADWb8B93JAWBidYwkAAAAASUVORK5CYII=);
+    }
